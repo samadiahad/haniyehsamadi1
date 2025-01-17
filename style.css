@@ -1,0 +1,117 @@
+@font-face {
+    font-family: FONT;
+    src: url("FONT/BBaran.eot"); 
+    src: url("FONT/BBaran.ttf") format('FontName-opentype'),
+    url('font/BBaran.eot') format('eot'),
+    url('FONT/BBaran.ttf') format(.ttf);
+    font -weight: normal;
+    font-style: normal;
+}
+body{
+    background-color: rgb(235, 146, 203); color: black;font-family: font; font-size: 24px;
+;text-align: center;directino:rtl;
+}
+a{
+    text-decoration:none;
+}
+p{
+    direction: rtl; text-align: right;
+}
+font-face{
+    font-family: "vazir";
+    src: url('fonts/vazir.eot'); format('eot');
+    src: url('fonts/vazir.ttf'); format('truetype'),
+    url('fonts/vazir.woof'); format('woof');
+    url('fonts/vazir.woof2'); format('woof2')
+}
+body,ul,li{
+    direction: rtl;
+    font-family:"vazir";
+    margin:0;
+    padding: 0;
+}
+.container{
+    width: 1400px;
+    margin: auto;
+}
+header{
+    background-image: url(./pictur3/hpicture2/imgfa_ir__5f5f942a358e7_1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+}
+header nav{
+    width: 100%;
+    background-color:rgb(0,0,0,.4);
+    height: 70px;
+}
+header nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
+}
+header nav ul li{
+    margin: 25px;
+    line-height : 2;
+    border-left: 1px solid rgb(156,156,156);
+    padding-left: 15px;
+}
+header nav ul li:nth-child(4){
+    border: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+header .header-content{
+    position: absolute;
+    top:35%;
+    left:30%;
+    text-align: center;
+}
+header .header-content h2{
+    font-size: 60px;
+    color: #fff;
+}
+header .header-content p{
+    font-size: 60PX;
+    margin-top: 60PX;
+    color: #1d05da;
+}
+/* service*/
+#service{
+    width:100%}
+    #service.servise-title{
+        width: 100%;
+    text-aligan:center;
+}
+#service.servise-title h2{
+    font-size: 40px
+}
+#service.servise-title p{
+    margin-top: 20px;
+    width: 800px;
+    margin: auto;
+    font-size: 20px;
+}
+p{
+    direction: rtl;
+    margin-top: 20px;
+    width: 800px;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+}
+h2{
+    margin-top: 20px;
+    width: 800px;
+    margin: auto;
+    font-size: 50px;
+}
+
+
